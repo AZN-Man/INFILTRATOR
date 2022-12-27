@@ -1,0 +1,24 @@
+isJournalist = False
+isInspector = False
+isAgent = False
+isGuard = False
+
+input("\nDisclaimer: This game contains violence and political shit.\n\nWelcome to THE NHAINHAI BORDER. Press ENTER to play.")
+
+userinput = input("\nYou may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
+    while userinput.lower() != "journalist" and userinput.lower() != "inspector" and userinput.lower() != "agent" and userinput.lower() != "guard":
+        userinput = input("\nYou may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
+    
+    while userinput.lower() != "journalist" or userinput.lower() != "inspector" or userinput.lower() != "agent" or userinput.lower() != "guard":
+        if userinput.lower() == "journalist":
+            input("\nYou play as the Journalist.\n\nPress ENTER to continue.")
+            isJournalist = True
+        elif userinput.lower() == "inspector":
+            input("\nYou play as the Inspector.\n\nPress ENTER to continue.")
+            isInspector = True
+        elif userinput.lower() == "agent":
+            input("\nYou play as the Agent.\n\nPress ENTER to continue.")
+            isAgent = True
+        elif userinput.lower() == "guard":
+            input("\nYou play as the Guard.\n\nPress ENTER to continue.")
+            isGuard = True
