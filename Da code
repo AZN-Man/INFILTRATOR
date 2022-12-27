@@ -2,12 +2,13 @@ isJournalist = False
 isInspector = False
 isAgent = False
 isGuard = False
+overconfident = False
 
-input("\nDisclaimer: This game contains violence and political shit.\n\nWelcome to THE NHAINHAI BORDER. Press ENTER to play.")
+input("\nDisclaimer: This game contains violence and political shit.\n\nWelcome to THE RIKANDO BORDER. Press ENTER to play.")
 
-userinput = input("\nYou may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
-    while userinput.lower() != "journalist" and userinput.lower() != "inspector" and userinput.lower() != "agent" and userinput.lower() != "guard":
-        userinput = input("\nYou may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
+userinput = input("\nThe year is 1975. After a terrible famine struck Tsuna, the Tsunese government is weak. Political unrest follows and the eastern part of Tsuna breaks away from the original Tsuna, after a siege, pursuing more communist policies. The Tsunese Civil War starts and countless lives were lost, but it ends up with the world council drawing a line, seperating Tsuna into West Tsuna and East Tsuna. Just like that, the Tsunese Civil War came to an end. You may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
+while userinput.lower() != "journalist" and userinput.lower() != "inspector" and userinput.lower() != "agent" and userinput.lower() != "guard":
+    userinput = input("\nYou may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
     
     while userinput.lower() != "journalist" or userinput.lower() != "inspector" or userinput.lower() != "agent" or userinput.lower() != "guard":
         if userinput.lower() == "journalist":
@@ -22,3 +23,28 @@ userinput = input("\nYou may play as the [Journalist], [Inspector], [Agent] and 
         elif userinput.lower() == "guard":
             input("\nYou play as the Guard.\n\nPress ENTER to continue.")
             isGuard = True
+        
+while journalist == True:
+    input("\nYou are a female journalist that arrives from the capital city of Maji in West Tsuna, and the West Tsunese government has tasked you to go do your job in East Rikando, the closest East Tsunese city to West Tsuna. You finally land in East Tsunese soil and most importantly, in Rikando.")
+    
+    input("\nYour job is to report on the conditions in East Tsuna to increase the distribution of West Tsunese propaganda and maybe even conduct a study on the East Tsunese people. You will have to find a way to pass the Rikando border.")
+    
+    input("\nYou look at your watch and it turns out that the Rikando Border's work hours have just started and that you have just came in time, only a few minutes late. Thank god the trip by boat wasn't as long.")
+    
+    input("\nAs you walk to the border, you see two East Tsunese guards leaning on the wall and speaking in the eastern dialect of Tsunese. Not many people seem to come here, as the border is manned with countless CCTV cameras. The guard on the right lends the guard on the left a cigarette, but the guard on the left rejects his offer and gives it back. The guards notice you and the guard on the right walks to the Inspector's office.")
+    
+    input("\nIt looks like you mistaked him for a guard. The guard (guard on the left) gives you a dirty look as you walk past him, and when you walk inside the border, you see the Inspector ('guard' on the right) sit on his metal chair. You think to yourself that it must be pretty uncomfortable to sit on, but quickly come to your senses.")
+    
+    input("\nEast Tsuna looks way more industrial with all the sounds of clanking metals and the faint smell of smoke, compared to West Tsuna's natural architechure. The Inspector starts to talk to you. However, his Eastern accent doesn't seem to wear off.")
+    
+    input("\nYou see a sign on the wall that says in Tsunese: 'NO WEST TSUNESE PEOPLE'. Looks like East Tsuna didn't recover that much from the war. The Inspector asks you for your passport. Although he speaks fast and uses foreign words, it's enough for you to understand him.")
+    
+    userinput = input("\nYou pull out a fake passport. Enter [1] to check the passport and enter [2] to not check the passport.\n>>> ")
+    while userinput.lower() != "1" and userinput.lower() != "2":
+        userinput = input("\nEnter [1] to check the passport and enter [2] to not check the passport.\n>>> ")
+    
+    if userinput.lower() == "1":
+        input("\nYou check your passport and the nationality seems unrealistic, as it says you are from Rhochea. You grab another passport that says you are from Caorea, and give it to the Inspector.\n\nPress ENTER to continue.")
+    elif userinput.lower() == "2":
+        input("\nYou give your passport to the Inspector. It would be a waste of time to check it.\n\nPress ENTER to continue.")
+        overconfident = True
