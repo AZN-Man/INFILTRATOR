@@ -3,7 +3,7 @@ So I had this game idea and decided to name it THE NHAINHAI (pronounced nai-nai)
 
 Basically: 
 
-Rhochea is at war with Caorea (pronounced chao), in what was known as the Cao-Rhochean War. You can play as many different characters, such as the Journalist, the Inspector, the Agent and the Guard.
+Rhochea (pronounced rou-chi-uh) is at war with Caorea (pronounced chao-ri-uh), in what was known as the Cao-Rhochean War. You can play as many different characters, such as the Journalist, the Inspector, the Agent and the Guard.
 
 The Journalist is a (well you guessed it) journalist from Rhochea and is sent to Nhainhai, the closest Cao city to Rhochea, to report on not only the conditions in Caorea for propaganda purposes but to also collect data about the Cao people. She must attempt to cross the Nhainhai Border by lying to the Inspector and not alerting the Guard. The Agent will help eliminate the Guard and smoothen out any screwups done by the Journalist.
 
