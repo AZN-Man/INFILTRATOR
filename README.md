@@ -9,7 +9,7 @@ The Journalist is a (well you guessed it) journalist from West Tsuna and is sent
 
 The Inspector is an East Tsunese border inspector from the capital of Shinjito, who takes up a job at the heavily fortified Rikando Border. He checks the passport and can be lied to by fake passports. However, the Inspector can also detect fake passports but will be bribed by the Journalist. Whether he accepts the bribe or not is up to the player. Due to the Inspector's politeness, he can be distracted by the Journalist.
 
-The Guard is an East Tsunese country bumpkin who is pressured by his family to become a guard at the Rikando Border, where no Rhocheans may cross. The reason that there is only one guard is because no one has the guts to be one, considering how unfair the pay is. He is the one who will cause the endings, as his rifle will either injure the Journalist or miss her, in case she performs any misdoing.
+The Guard is an East Tsunese country bumpkin who is pressured by his family to become a guard at the Rikando Border, where no West Tsunese people may cross. The reason that there is only one guard is because no one has the guts to be one, considering how unfair the pay is. He is the one who will cause the endings, as his rifle will either injure the Journalist or miss her, in case she performs any misdoing.
 
 The Agent is a West Tsunese spy who aids the Journalist in the process of trying to cross the Rikando Border. The Agent will also eliminate the Guard if he tries to shoot the Journalist. Not much is known about him.
 
