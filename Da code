@@ -6,7 +6,7 @@ overconfident = False
 
 input("\nDisclaimer: This game contains violence and political shit.\n\nWelcome to THE RIKANDO BORDER. Press ENTER to play.")
 
-userinput = input("\nThe year is 1975. After a terrible famine struck Tsuna, the Tsunese government is weak. Political unrest follows and the eastern part of Tsuna breaks away from the original Tsuna, after a siege, pursuing more communist policies. The Tsunese Civil War starts and countless lives were lost, but it ends up with the world council drawing a line, seperating Tsuna into West Tsuna and East Tsuna. Just like that, the Tsunese Civil War came to an end. You may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
+userinput = input("\nThe year is 1975. After a terrible famine struck Tsuna, the Tsunese government is weak. Political unrest follows and the eastern part of Tsuna breaks away from the original Tsuna, after a siege, pursuing more communist policies. The Tsunese Civil War starts and countless lives were lost, but it ends up with the world council drawing a line, seperating Tsuna into West Tsuna and East Tsuna. Just like that, the Tsunese Civil War came to an end.\n\nAll dialogue is translated into English. You may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
 while userinput.lower() != "journalist" and userinput.lower() != "inspector" and userinput.lower() != "agent" and userinput.lower() != "guard":
     userinput = input("\nYou may play as the [Journalist], [Inspector], [Agent] and [Guard]. You play as:\n>>> ")
     
@@ -44,7 +44,10 @@ while journalist == True:
         userinput = input("\nEnter [1] to check the passport and enter [2] to not check the passport.\n>>> ")
     
     if userinput.lower() == "1":
-        input("\nYou check your passport and the nationality seems unrealistic, as it says you are from Rhochea. You grab another passport that says you are from Caorea, and give it to the Inspector.\n\nPress ENTER to continue.")
+        input("\nYou check your passport and the nationality seems unrealistic, as it says you are from Baran. You grab another passport that says you are from Caorea, and give it to the Inspector.\n\nPress ENTER to continue.")
     elif userinput.lower() == "2":
-        input("\nYou give your passport to the Inspector. It would be a waste of time to check it.\n\nPress ENTER to continue.")
+        input("\nYou give your passport to the Inspector while saying 'Na.'. It would be a waste of time to check it.\n\nPress ENTER to continue.")
         overconfident = True
+    
+    if overconfident == True:
+        input("\n'What is this?', the Inspector says. 'You don't look Barani.'. You get found out and attempt to bribe him. 'Wrong border!', the Inspector shouts. He suddenly sounds the alarm.")
