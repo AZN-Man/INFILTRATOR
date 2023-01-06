@@ -1,4 +1,5 @@
 checkpoint = False
+death = False
 
 userinput = input("\nWelcome to INFILTRATOR! Enter [start] to play.\n>>> ")
 
@@ -19,7 +20,10 @@ while checkpoint = True:
     
     input("\nAfter boarding the train for North Shanghai, you land and walk close to the Shanghai Border using a map.
     
-    userinput = input("\nAfter the view becomes clear enough, you finally confirm that it is indeed the Shanghai Border. How will you approach?\n\n[use a fake passport]\n\n[sneak around]\n\n>>> ")
+    userinput = input("\nAfter the view becomes clear enough, you finally confirm that it is indeed the Shanghai Border. Even though your China does not use the traditional Chinese writing system, you still could recognise what it says on the border's sign. How will you approach?\n\n[use a fake passport]\n\n[sneak around]\n\n>>> ")
     
     if userinput.lower() == "use a fake passport":
-        input("\nYou look in your back pocket, and in it reveals a fake passport. ")
+        input("\nYou look in your back pocket, and in it reveals a fake passport. The picture does not match, though, and you will have to find an excuse.")
+    elif userinput.lower() == "sneak around":
+        input("\nYou attempt to sneak through the border by trying an alternate way nobody goes to. Luckily, no guards are there.")
+        death = True
