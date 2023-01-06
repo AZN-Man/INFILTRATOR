@@ -1,4 +1,4 @@
-# THE-RIKANDO-BORDER
+# INFILTRATOR
 So, I have this game idea.
 
 The Chinese Civil War instead results in a stalemate and as a desicion by the United Nations, China is split in half between the communist-ruled North China (PRC) and the Kuomintang-ruled South China (ROC). The border is lined to the Yangtze River, and is one of the most fortified borders ever. The game takes place in 1958, 9 years after the end of the civil war.
