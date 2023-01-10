@@ -6,24 +6,59 @@ userinput = input("\nWelcome to INFILTRATOR! Enter [start] to play.\n>>> ")
 if userinput.lower() == "start":
     input("\nIt's been 9 years since the Chinese Civil War. For a little bit of history, the civil war ends in a stalemate and as opinion by the United Nations, a border drawn along the Yangtze River splits China into two; the CCP-ruled North China and the KMT-ruled South China. And so, begins the Two Chinas Period.\n\nPress ENTER to continue.")
         
-input("\nYou are a man from North China, or locally just China, named Tsu. You are luckily quite in shape, unlike your starved peers. Chairman Mao brings upon a concept known as Chinese unionism and looks forward to reuniting China once again, even though both Chinas already claim each other.")
+input("\nYou are a spy from North China, or locally just China, named Tsu. You are luckily quite in shape, unlike your starved peers. Chairman Mao brings upon a concept known as Chinese unionism and looks forward to reuniting China once again, even though both Chinas already claim each other.")
 
-input("\nOf course, you don't give a shit about Chinese politics. All you care about is to be able to feed your dad and your siblings. Mum either got captured by the Red Guards for defying the government, or got killed in the war. Your reason for taking this job is because it's high-paying and most suitable for you.")
+input("\nOf course, you don't give a shit about Chinese politics. All you care about is to be able to support your dad and your siblings in the midst of a quasi-famine. Mum either got captured by the Red Guards for defying the government, or got killed in the war. Your reason for taking this job is because it's high-paying and most suitable for you.")
 
 input("\nUnless you wanted to work like hell in the labour camps for eternity.")
 
 input("\nUnder Chairman Mao's orders, you and a few others are to illegally cross the Shanghai Border and assassinate Chiang Kai-shek, in an attempt to cause turmoil in South China and significantly weaken the nationalist government.")
 checkpoint = True
 
-while checkpoint = True:
+while checkpoint == True:
     input("\nThe year is 1958. You wake up and are handed a batch of normal western-like clothing, in order to disguise yourself as a civilian. You grab your pistol and a pack of bullets as ammo.")
     
-    input("\nAfter boarding the train for North Shanghai, you land and walk close to the Shanghai Border using a map.
+    input("\nAfter boarding the train for North Shanghai, you land and walk close to the Shanghai Border using a map.")
     
     userinput = input("\nAfter the view becomes clear enough, you finally confirm that it is indeed the Shanghai Border. Even though your China does not use the traditional Chinese writing system, you still could recognise what it says on the border's sign. How will you approach?\n\n[use a fake passport]\n\n[sneak around]\n\n>>> ")
+    while userinput.lower() != "use a fake passport" and userinput.lower() != "sneak around":
+        userinput = input("\nWill you...\n\n[use a fake passport]\n\n[sneak around]\n>>> ")
     
     if userinput.lower() == "use a fake passport":
         input("\nYou look in your back pocket, and in it reveals a fake passport. The picture does not match, though, and you will have to find an excuse.")
     elif userinput.lower() == "sneak around":
         input("\nYou attempt to sneak through the border by trying an alternate way nobody goes to. Luckily, no guards are there.")
         death = True
+        
+    
+    if death == False:
+        input("\nYou bring the passport to a border inspector. The inspector notices your picture and questions you. 'Times have changed.', you say. He does not push any further, and you are amused that it actually worked.")
+    else:
+        input("\nYou sneak around and manage to remain undetected, but a guard from the other side happens to walk in on you. He shoots your legs and presses you to the ground.")
+        
+    if death == True:
+        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are thrown into a jail cell and set to live there for the rest of your life.\n\nYou will never be able to see your family again.\n\nEND")
+        continue
+    
+    input("\nYou look at a random clock on the walls and it is about time. Your legs are getting weaker and powering through it will make it even worse. You spot a random trishaw and pay the driver some nationalist currency for a ride to where Chiang Kai-shek will hold his speech, which is pretty popular right now. The driver notices your Northern accent and asks if you are from North China, to which you deny.")
+    
+    input("\nYou get on the trishaw and try to grab hold of something to prevent you from flying off, as the wheels would always bump into something. The seat is certainly more comfortable than the floor you sleep on everyday. The busy streets make the communication between you and the driver even harder. You wait and wait until the trishaw suddenly stops near a food stall. An official government building is close to the stall, and you spot a stand.")
+    
+    input("\nYou jump off the trishaw and walk to the stall. You could have ordered something that wasn't biscuit crumbs, but almost all that money went to the driver. You don't have enough money to order anything useful. You've been suffering from a discomfort in your stomach and steal an unfinished bowl of soup, which tastes pretty metallic. The discomfort wears off a little. You wait even more after you're done.")
+    
+    input("\nYou observe other people as way to kill time, before seeing a lot of guards and finally; Chiang Kai-shek, the dictator of South China. You load your gun, get out of your seat and run closer to the stand.")
+
+    userinput = input("\nWhat do you choose?\n\n[1]\n\n[2]\n\n>>> ")
+    while userinput.lower() != "1" and userinput.lower() != "2":
+        userinput = input("\nWill you choose...\n\n[1]\n\n[2]\n>>> ")
+    
+    if userinput.lower() == "2":
+        input("\nYou run closer to President Chiang and shoot at him. You directly hit his head and he slams his face onto the desk, with a pool of blood flowing out. You've done it now, you've successfully killed the leader of South China. The guards identify you as the killer and outnumber you, soon pressing you to the ground.")
+    elif userinput.lower() == "1":
+        input("\nYou shoot at President Chiang, but missed. Now, you've done it. What did you get yourself into? The guards identify you as the assassin and apprehend you by instantly pressing you to the ground.")
+        death = True
+    
+    if death == False:
+        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are put in death row. Your execution is next week.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans failed.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
+    else:
+        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are sentenced to forced labour. If you return to the North, you will be labelled as a traitor, so you decide to make no effort in escaping.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination attempt of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans failed.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
