@@ -5,7 +5,7 @@ userinput = input("\nWelcome to INFILTRATOR! Enter [start] to play.\n>>> ")
 
 if userinput.lower() == "start":
     input("\nIt's been 9 years since the Chinese Civil War. For a little bit of history, the civil war ends in a stalemate and as opinion by the United Nations, a border drawn along the Yangtze River splits China into two; the CCP-ruled North China and the KMT-ruled South China. And so, begins the Two Chinas Period.\n\nPress ENTER to continue.")
-        
+    
 input("\nYou are a spy from North China, or locally just China, named Tsu. You are luckily quite in shape, unlike your starved peers. Chairman Mao brings upon a concept known as Chinese unionism and looks forward to reuniting China once again, even though both Chinas already claim each other.")
 
 input("\nOf course, you don't give a shit about Chinese politics. All you care about is to be able to support your dad and your siblings in the midst of a quasi-famine. Mum either got captured by the Red Guards for defying the government, or got killed in the war. Your reason for taking this job is because it's high-paying and most suitable for you.")
@@ -17,6 +17,7 @@ checkpoint = True
 
 while checkpoint == True:
     input("\nThe year is 1958. You wake up and are handed a batch of normal western-like clothing, in order to disguise yourself as a civilian. You grab your pistol and a pack of bullets as ammo.")
+    death = False
     
     input("\nAfter boarding the train for North Shanghai, you land and walk close to the Shanghai Border using a map.")
     
