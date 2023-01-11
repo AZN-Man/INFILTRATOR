@@ -32,7 +32,7 @@ while checkpoint == True:
         
     
     if death == False:
-        input("\nYou bring the passport to a border inspector. The inspector notices your picture and questions you. 'Times have changed.', you say. He does not push any further, and you are amused that it actually worked.")
+        input("\nYou bring the passport to a border inspector. The inspector notices your picture and questions you. 'Times have changed.', you forcibly say. He does not push any further, and you are amused that it actually worked.")
     else:
         input("\nYou sneak around and manage to remain undetected, but a guard from the other side happens to walk in on you. He shoots your legs and presses you to the ground.")
         
@@ -40,7 +40,7 @@ while checkpoint == True:
         input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are thrown into a jail cell and set to live there for the rest of your life.\n\nYou will never be able to see your family again.\n\nEND")
         continue
     
-    input("\nYou look at a random clock on the walls and it is about time. Your legs are getting weaker and powering through it will make it even worse. You spot a random trishaw and pay the driver some nationalist currency for a ride to where Chiang Kai-shek will hold his speech, which is pretty popular right now. The driver notices your Northern accent and asks if you are from North China, to which you deny.")
+    input("\nYou look at a random clock on the walls and it is about time. Your legs are getting weaker and powering through it will make it even worse. You spot a random trishaw and pay the driver some nationalist currency for a ride to where Chiang Kai-shek will hold his speech, which is pretty popular right now. The driver notices your Northern accent and asks if you are from North China, to which you do not reply.")
     
     input("\nYou get on the trishaw and try to grab hold of something to prevent you from flying off, as the wheels would always bump into something. The seat is certainly more comfortable than the floor you sleep on everyday. The busy streets make the communication between you and the driver even harder. You wait and wait until the trishaw suddenly stops near a food stall. An official government building is close to the stall, and you spot a stand.")
     
@@ -59,6 +59,6 @@ while checkpoint == True:
         death = True
     
     if death == False:
-        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are put in death row. Your execution is next week.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans failed.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
+        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are put in death row. Your execution is next week.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans backfired.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
     else:
-        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are sentenced to forced labour. If you return to the North, you will be labelled as a traitor, so you decide to make no effort in escaping.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination attempt of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans failed.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
+        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are sentenced to forced labour. If you return to the North, you will be labelled as a traitor, so you decide to make no effort in escaping.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination attempt of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans backfired.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
