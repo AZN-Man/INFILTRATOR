@@ -68,7 +68,7 @@ if userinput.lower() == "protect workers' rights" or userinput.lower() == "prote
         pride += 1
 
 if pride == 2:
-    input("\nYou suddenly feel a sense of self importance. You do not know if it is a bad omen or not, and shrug off the sensation.")
+    input("\nYou suddenly feel a sense of self importance. You do not know if it is a bad omen or not, and shrug off the sensation. You get a notification from Sheng, which bosses on you, telling you how to rule and all that... Aren't you the president?")
 if pride == 1:
     input("\nYou suddenly get a notification from Sheng, congratulating you on your choice. However, he says that you need to listen to him more, and that staying true to yourself can be dangerous. The hell is this guy talking about? Well, whatever.")
 else:
