@@ -1,65 +1,75 @@
-checkpoint = False
-death = False
+pride = 0
+papers = False
 
-userinput = input("\nWelcome to INFILTRATOR! Enter [start] to play.\n>>> ")
+input("\nThe year is 2046. You are a man named Qi, and you used to be a member of the Chinese Communist Party, gaining a reputation through your public speaking and policies. After years of political unrest in China, you are named the new president by those who precede you, as you have a lot of experience.\n\nPress ENTER to continue.")
 
-if userinput.lower() == "start":
-    input("\nIt's been 9 years since the Chinese Civil War. For a little bit of history, the civil war ends in a stalemate and as opinion by the United Nations, a border drawn along the Yangtze River splits China into two; the CCP-ruled North China and the KMT-ruled South China. And so, begins the Two Chinas Period.\n\nPress ENTER to continue.")
+input("\nYou did not expect, for all your life, to be the literal president of China. It feels like a dream come true. Being a soldier or an entrepreneur was already enough for you.")
+
+input("\nHowever, you taking the role as the president of China does the opposite of what the party hoped it would do. It made the country more violent and prone to rebellions. Because of that, you get security guards that seem to always follow you. Another man named Sheng is chosen as your political advisor.")
+
+input("\nDAY 0")
+
+input("\nAfter dealing with all of the paperwork, you are about to start your first day as president. Your office looks like a hotel, and is certainly better than the factory you grew up in. When you finished your long tour around the Great Hall of the People, you attend a meeting about political matters.")
+
+input("\nYou hear the politicians use words such as 'democracy'. You ask 'What kind of democracy?', and share your thoughts on the matter. You say that democracy isn't perfect too and explain its flaws, while they immediately start giving you dirty looks and even expresses their dissaproval through body language.")
+
+input("\nAre they really that sensitive that they can't even accept other people's opinions, or even the truth? You don't want to say it, but this country's future might be grim if it works around those politicians. You decide to not go further and after noticing the time, you dismiss everyone. Sheng continues to look at you and opens his mouth as to say something, but doesn't.")
+
+input("\nAs you walk back to your personal room, you start organising your room and writing your thoughts on paper. You on your phone and check the state-media. You see sensitive articles that are releasing too much information but don't do anything about it anyways, handling the situation to the Publicity Department.")
+
+userinput = input("\nSoon, you got bored and suddenly remembered your work, as you were too busy mentally scolding one of the politicians in your head. Will you...\n\n[stay overnight]\n\n[go to sleep]\n\n>> ")
+while userinput.lower() != "stay overnight" and userinput.lower() != "go to sleep":
+        userinput = input("\nWill you...\n\n[stay overnight]\n\n[go to sleep]\n>>> ")
+
+if userinput.lower() == "stay overnight":
+        input("\nYou decide to stay overnight reviewing your forms, and your hands become weaker. You became half-asleep in the process and finally submitted, to which you instantly jump into bed without taking your shoes off and changing into your pajamas.")
+        papers = True
+    elif userinput.lower() == "go to sleep":
+        input("\nYou decide that the forms were a waste of your valuable sleep and change to your pajamas anyways, hopping into bed right after.")
+        
+input("\nDAY 1")
+
+if papers == True:
+    input("\nAs soon as you got up, you suddenly found yourself on your bed, in your pajamas and tucked in. You could have swore you slept on the desk. Plus, if someone changed your clothes, would that mean that they stripped you without your knowledge? You try not to think too much and simply get off, quickly going for a quick shower and changing into your usual attire. You don't have time to be dazing off into space. You continue going through your phone as your little leisure.")
+if papers == False:
+    input("\nAs soon as you got up, you hear a notification from your device and use gravitational force to pull it towards you. It says that you have not submitted your forms and that you needed to complete them today. You become annoyed and decide to spend your little leisure completing the documents.")
     
-input("\nYou are a spy from North China, or locally just China, named Tsu. You are luckily quite in shape, unlike your starved peers. Chairman Mao brings upon a concept known as Chinese unionism and looks forward to reuniting China once again, even though both Chinas already claim each other.")
+input("\nYou check your mail and sign all the other online documents you were assigned, which makes your finger kind of sore. But then, it would be awkward to not sign those documents, wouldn't it? Your AI finds a virus-ridden e-mail and you ignore it. As you walk out of your room, your guards and some soldiers immediately open way for you to walk through. You don't get why they have to be so polite, but accept their courtesy anyways.")
 
-input("\nOf course, you don't give a shit about Chinese politics. All you care about is to be able to support your dad and your siblings in the midst of a quasi-famine. Mum either got captured by the Red Guards for defying the government, or got killed in the war. Your reason for taking this job is because it's high-paying and most suitable for you.")
+input("\nAfter waiting in the elevator and walking out, you walk to an alternate passageway to avoid journalists coming to you, and meet Sheng, your political advisor. He hands you a tablet. 'Read it, president.', Sheng says. 'You will need it.'. You walk back to office, planning to sign the paper.")
 
-input("\nUnless you wanted to work like hell in the labour camps for eternity.")
+input("\nYou place 2 little cans on the floor and it transforms into a big chair and table. You take a seat and wonder if the slaves in labour camps that made the cans would be happy that a president is now making use of those. However, you allow no distraction and immediately begin to read the tablet.")
 
-input("\nUnder Chairman Mao's orders, you and a few others are to illegally cross the Shanghai Border and assassinate Chiang Kai-shek, in an attempt to cause turmoil in South China and significantly weaken the nationalist government.")
-checkpoint = True
+userinput = input("\nIt states that China is in an environmental crisis, and that the ecosystem is getting destroyed to create new factories and megacities. Will you...\n\n[place protected areas]\n\n[introduce wooden straws]\n\n>> ")
+while userinput.lower() != "place protected areas" and userinput.lower() != "introduce wooden straws":
+        userinput = input("\nWill you...\n\n[place protected areas]\n\n[introduce wooden straws]\n>>> ")
 
-while checkpoint == True:
-    input("\nThe year is 1958. You wake up and are handed a batch of normal western-like clothing, in order to disguise yourself as a civilian. You grab your pistol and a pack of bullets as ammo.")
-    death = False
+if userinput.lower() == "place protected areas":
+        input("\nYou decide to place protected areas in places like forests so they wouldn't get cut down either. People do need clean air from the forest, though.")
+    elif userinput.lower() == "introduce wooden straws":
+        input("\nYou decide that wooden straws were the best solution you have right now. I mean, what real harm would it do if a few trees die? They're just planks from trees.")
+        pride += 1
+        
+if pride == 1:
+    input("\nPlus, who needs protected areas? What they really need is some more office buildings, cities and factories, so they can produce more products. It's progress and also the livelihood of most people nowadays, isn't it?")
+else:
+    input("\nPlus, who needs malls and supermarkets? Everyone does online shopping nowadays. But hey, you're already in your 30s. What can oldies like you say?")
     
-    input("\nAfter boarding the train for North Shanghai, you land and walk close to the Shanghai Border using a map.")
-    
-    userinput = input("\nAfter the view becomes clear enough, you finally confirm that it is indeed the Shanghai Border. Even though your China does not use the traditional Chinese writing system, you still could recognise what it says on the border's sign. How will you approach?\n\n[use a fake passport]\n\n[sneak around]\n\n>>> ")
-    while userinput.lower() != "use a fake passport" and userinput.lower() != "sneak around":
+input("\nThe tablet displays another form for you to fill in. After minutes of verification, you finally manage to read it.")
+
+userinput = input("\nIt states that worker strikes have been rampant around the country. Will you...\n\n[protect workers' rights]\n\n[suppress the strikes]\n\n>> ")
+while userinput.lower() != "protect workers' rights" or userinput.lower() == "protect workers rights" and userinput.lower() != "suppress the strikes":
         userinput = input("\nWill you...\n\n[use a fake passport]\n\n[sneak around]\n>>> ")
-    
-    if userinput.lower() == "use a fake passport":
-        input("\nYou look in your back pocket, and in it reveals a fake passport. The picture does not match, though, and you will have to find an excuse.")
-    elif userinput.lower() == "sneak around":
-        input("\nYou attempt to sneak through the border by trying an alternate way nobody goes to. Luckily, no guards are there.")
-        death = True
-        
-    
-    if death == False:
-        input("\nYou bring the passport to a border inspector. The inspector notices your picture and questions you. 'Times have changed.', you forcibly say. He does not push any further, and you are amused that it actually worked.")
-    else:
-        input("\nYou sneak around and manage to remain undetected, but a guard from the other side happens to walk in on you. He shoots your legs and presses you to the ground.")
-        
-    if death == True:
-        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are thrown into a jail cell and set to live there for the rest of your life.\n\nYou will never be able to see your family again.\n\nEND")
-        continue
-    
-    input("\nYou look at a random clock on the walls and it is about time. Your legs are getting weaker and powering through it will make it even worse. You spot a random trishaw and pay the driver some nationalist currency for a ride to where Chiang Kai-shek will hold his speech, which is pretty popular right now. The driver notices your Northern accent and asks if you are from North China, to which you do not reply.")
-    
-    input("\nYou get on the trishaw and try to grab hold of something to prevent you from flying off, as the wheels would always bump into something. The seat is certainly more comfortable than the floor you sleep on everyday. The busy streets make the communication between you and the driver even harder. You wait and wait until the trishaw suddenly stops near a food stall. An official government building is close to the stall, and you spot a stand.")
-    
-    input("\nYou jump off the trishaw and walk to the stall. You could have ordered something that wasn't biscuit crumbs, but almost all that money went to the driver. You don't have enough money to order anything useful. You've been suffering from a discomfort in your stomach and steal an unfinished bowl of soup, which tastes pretty metallic. The discomfort wears off a little. You wait even more after you're done.")
-    
-    input("\nYou observe other people as way to kill time, before seeing a lot of guards and finally; Chiang Kai-shek, the dictator of South China. You load your gun, get out of your seat and run closer to the stand.")
 
-    userinput = input("\nWhat do you choose?\n\n[1]\n\n[2]\n\n>>> ")
-    while userinput.lower() != "1" and userinput.lower() != "2":
-        userinput = input("\nWill you choose...\n\n[1]\n\n[2]\n>>> ")
-    
-    if userinput.lower() == "2":
-        input("\nYou run closer to President Chiang and shoot at him. You directly hit his head and he slams his face onto the desk, with a pool of blood flowing out. You've done it now, you've successfully killed the leader of South China. The guards identify you as the killer and outnumber you, soon pressing you to the ground.")
-    elif userinput.lower() == "1":
-        input("\nYou shoot at President Chiang, but missed. Now, you've done it. What did you get yourself into? The guards identify you as the assassin and apprehend you by instantly pressing you to the ground.")
-        death = True
-    
-    if death == False:
-        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are put in death row. Your execution is next week.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans backfired.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
+if userinput.lower() == "protect workers' rights" or userinput.lower() == "protect workers rights":
+        input("\nYou decide to allow strikes and protect the workers' rights. It's what the People's Republic of China existed for, right? Serving the workers?")
     else:
-        input("\nAfter loads of suspicion over your equipments, you are later interrogated by NRA soldiers about your real identity, with a gun pointed to your head. After you reveal that you are indeed a North Chinese spy, you are sentenced to forced labour. If you return to the North, you will be labelled as a traitor, so you decide to make no effort in escaping.\n\nA few days later, you grab some newspapers and the biggest article says that the Second Chinese Civil War has been declared, after the assassination attempt of Chiang Kai-shek angered the nationalists. It looks like Chairman Mao's plans backfired.\n\nA civil war starts because of you, could you even think of a larger achievement that humans can possess?\n\nEND")
+        input("\nYou decide to suppress the strikes. The flow of products must keep going. If not?")
+        pride += 1
+
+if pride == 2:
+    input("\nYou suddenly feel a sense of self importance. You do not know if it is a bad omen or not, and shrug off the sensation.")
+if pride == 1:
+    input("\nYou suddenly get a notification from Sheng, congratulating you on your choice. However, he says that you need to listen to him more, and that staying true to yourself can be dangerous. The hell is this guy talking about? Well, whatever.")
+else:
+    input("\nYou suddenly get a notification from Sheng, congratulating you on your choices. He says that you are on the right track to saving China, and that you might need to care about the citizens more than you care about the nation.")
